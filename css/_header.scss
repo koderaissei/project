@@ -1,0 +1,139 @@
+.wap{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1200px;
+    @media (max-width: 700px){
+        padding: 0;
+    }
+}
+.header-nav-list{
+    display: flex;
+    margin: 0;
+    list-style: none;
+    font-size: 1.25rem;
+    li{
+        padding-left: 3rem;
+    }
+    i{
+        display: none;
+    }
+    p{
+        margin: 0;
+        padding: 0.5rem;
+    }
+    @media (max-width: 700px){
+        padding: 0;
+
+        i{
+            display: block;
+            text-align: center;
+    }
+    li{
+        padding: .3rem;
+        display: block;
+
+    }
+    p{
+        font-size: .75rem;
+    }
+}
+}
+.header{
+    margin: 0;
+
+}
+.header-boder{
+ 
+        border-bottom: 2px #2d3374 solid;
+        @media (max-width: 700px){
+            border-bottom: none;
+        }
+    }
+    .header-color{
+        background: none;
+        @media(max-width: 700px){
+            background: #f8f6f2;
+        }
+    }
+    .header-hover:hover{
+        border-bottom: 2px #2d3374 solid;
+    }
+header{
+    display: flex;
+    justify-content: space-between;
+   
+    padding: 2rem 1rem 1rem 1rem;
+    @media (max-width: 700px){
+        padding: 1rem;
+       
+}
+}
+.logo{
+    width: 100%;
+    height: 40px;
+    @media (max-width: 700px){
+        width: 7.5rem;
+        margin: 0;
+}
+}
+.home{
+    background-image: url(../images/bg-hero.jpg);
+    background-size: 76%;
+    background-position: right top ;
+    background-repeat: no-repeat;
+    height: auto;
+    
+    padding: 7vw 1rem;
+    @media (max-width: 700px){
+        background-size: 70%;
+        padding: 5.5rem 1rem 3rem;
+    }
+}
+
+.home-text{
+    width: 47%;
+    h2{
+        font-size: 2.5rem;
+        font-family: 'Sawarabi Mincho', sans-serif;
+        font-weight: 400;
+        padding: 1rem;
+        
+    }
+    p{
+        font-size: 1.125rem;
+        line-height: 1.5;
+    }
+
+    @media (max-width: 700px){
+    width: 100%;
+    h2{
+        font-size: 1.5rem;
+        display: inline-block;
+      
+        margin: 8vw 0;
+        background: rgba(255,255,255,.8);
+    }
+    p{
+        font-size: 1.125rem;
+        margin-bottom: 2rem;
+    }
+}
+    }
+
+.button{
+    background-color: #2d3374;
+    padding:1.25rem 3.25rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 1.375rem;
+    a{
+        color: #fff;}
+    
+    @media (max-width: 700px){
+        padding: 1.25rem 3.25rem;
+        display: block;
+    }
+}
+.button:hover{
+   opacity: 0.5;
+}

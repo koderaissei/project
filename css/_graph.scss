@@ -1,0 +1,70 @@
+.graph-bg{
+    background-color: #f8f6f2;
+   
+}
+.ct-label{
+    font-size: 1rem;
+    fill: #fff;
+}
+.ct-series-a .ct-slice-pie{
+    fill: #2d3374;
+}
+.ct-series-b .ct-slice-pie{
+    fill: #3a7edf;
+}
+.ct-series-c .ct-slice-pie{
+    fill: #9bcbf8;
+}
+.ct-series-d .ct-slice-pie{
+    fill: #bbb;
+}
+.graph-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 1rem;
+    
+}
+.row{
+    flex-direction: row-reverse;
+}
+.graph-text{
+    width: 50vw;
+    h2{
+        font-size: 1.875rem;
+        font-family: 'Sawarabi Mincho', sans-serif;
+        line-height: 1.5;
+    }
+    @media (max-width: 700px){
+        width: 100%;
+       h2{
+        font-size: 1.5rem;}
+        p{
+            line-height: 1.7;
+        }
+    }
+}
+.home-chart{
+    width: 36vw;
+    margin: 0.8rem;
+    @media (max-width: 700px){
+        display: none;
+}
+}
+.graph-title::after{
+    content: '';
+    display: block;
+    height: 5px;
+    width: 10rem;
+    background: #d0bea2;
+    margin: 2rem 0 2.5rem;
+}
+.ct-series-a .ct-bar{
+    stroke: #3a7edf;
+}
+.ct-bar{
+    stroke-width: 16%;
+}
+.home-p{
+    text-align: center;
+}
